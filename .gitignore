@@ -1,0 +1,34 @@
+# ── مخرجات البناء (لا تُرفع أبداً) ──────────────────────────
+build/
+**/build/
+.dart_tool/
+.gradle/
+*.apk
+*.aab
+*.app
+*.exe
+*.so
+*.o
+*.obj
+*.log
+
+# مخرجات CMake لسطح المكتب (تُولَّد من جديد)
+app/windows/flutter/ephemeral/
+app/windows/flutter/generated_plugins.cmake
+app/windows/flutter/generated_plugin_registrant.*
+
+# ── أنظمة ومحرّرات ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# ── حِلَف وأسرار (لا يوجد شيء منها في المشروع — وقاية) ─────
+*.jks
+*.keystore
+*.p12
+*.pem
+key.properties
+.env
+.env.*
